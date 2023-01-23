@@ -11,4 +11,7 @@
 
 const areYouPlayingBanjo = name => name[0].toLowerCase()=='r'? name + ' plays banjo':name + ' does not play banjo' 
 
-//ADDTIONAL NOTES: I've been absent for about 2 months now and this is my first time back. Thankfully, I haven't forgotten everything.
+//ADDTIONAL NOTES: I've been absent for about 2 months now and this is my first time back. Thankfully, I haven't forgotten everything. I did see this other version of the solution, which I like a fair bit. 
+function areYouPlayingBanjo(name) {
+    return name + (name[0].toLowerCase() == 'r' ? ' plays' : ' does not play') + " banjo";
+  }
